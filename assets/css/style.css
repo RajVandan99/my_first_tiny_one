@@ -1,0 +1,135 @@
+.heroImg {
+	background-color:#fcdb00;
+	padding:60px 0 110px 0;
+}
+
+.navbar {
+	list-style:none;
+}
+.navbar li{
+	display:inline-block;
+	margin-right:15px;
+	min-width:118px;
+}
+
+.navbar a{
+	font-size:22px;
+	font-weight:bold;
+	color:#010101;
+	display:inline-block;
+	text-transform:capitalize;
+	padding:18px;
+	text-align:right;
+}
+.navbar li : last-child {
+	margin-right:15px !important;
+	
+}
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active{
+	font-weight:lighter;
+}
+.inspire{
+	margin-top:74px;
+}
+.pri-heading {
+	font-size:32px;
+	font-weight:bold;
+	color:#010101;
+	margin-bottom:24px;
+}
+.sec-heading{
+	font-size:20px;
+	color:#313841;
+	margin-bottom:28px;
+	font-family: 'Montserrat', sans-serif;
+}
+.para {
+	font-size:16px;
+	color:#555555;
+	margin-bottom:40px;
+}
+.iconList li {
+	display:inline-block;
+	margin-right:40px;
+}
+.iconList a i{
+	font-size:42px;
+	color:#010101;
+	
+}
+.ipad {
+	padding-left:18px;
+}
+.thumbnail {
+	padding-bottom:90px;
+}
+.thumbnail i{
+	font-size:44px;
+}
+.icon {
+	width:25px;
+	height:35px;
+}
+.thumbContent h3{
+	font-size:22px;
+	color:#010101;
+	margin-bottom:15px;
+}
+.thumbContent p {
+	font-size:16px;
+	color:#898989;
+}
+.inTouch .pri-heading {
+	color:#fcdb00;
+}
+.inTouch .para {
+	color:#898989;
+	font-size:20px;
+}
+.form-control {
+	color:#898989;
+	height:50px;
+	padding:20px 25px;
+	width:calc(100% - 150px);
+	border-radius:5px;
+}
+.btn-primary {
+	margin-left:20px;
+	height:50px;
+	width:125px;
+	background-color:#fbdb00;
+	color:#010101;
+	font-size:16px;
+	font-weight:bold;
+	border-radius:5px;
+	cursor:pointer;
+	padding:15px 35px;
+	}
+.form-control ::placeholder {
+	color:#898989;
+	font-size:16px;
+	
+}
+.form-group {
+	margin-bottom: 80px;
+}
+.socialIcon li{
+	display:inline-block;
+	margin-right:32px;
+}
+.socialIcon li a {
+	color:#fcdb00;
+}
+.socialIcon li i {
+	font-size:42px;
+}
+.footer-list li, .footer-list li a{
+	color:#ffffff;
+	font-size:16px;
+	text-transform:capitalize;
+}
+.footer-list {
+	list-style:none;
+}
